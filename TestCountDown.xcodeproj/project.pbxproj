@@ -13,6 +13,8 @@
 		3EB1E37B20A0030D00455486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB1E37A20A0030D00455486 /* Assets.xcassets */; };
 		3EB1E37E20A0030D00455486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB1E37C20A0030D00455486 /* LaunchScreen.storyboard */; };
 		3EB1E38120A0030D00455486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1E38020A0030D00455486 /* main.m */; };
+		3EB1E38C20A0072700455486 /* SCCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1E38B20A0072700455486 /* SCCountdownLabel.m */; };
+		3EB1E38F20A0278100455486 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1E38E20A0278100455486 /* YYWeakProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3EB1E37D20A0030D00455486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EB1E37F20A0030D00455486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EB1E38020A0030D00455486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EB1E38A20A0072700455486 /* SCCountdownLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCountdownLabel.h; sourceTree = "<group>"; };
+		3EB1E38B20A0072700455486 /* SCCountdownLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCountdownLabel.m; sourceTree = "<group>"; };
+		3EB1E38D20A0276000455486 /* YYWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		3EB1E38E20A0278100455486 /* YYWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				3EB1E37220A0030C00455486 /* AppDelegate.m */,
 				3EB1E37420A0030C00455486 /* ViewController.h */,
 				3EB1E37520A0030C00455486 /* ViewController.m */,
+				3EB1E38D20A0276000455486 /* YYWeakProxy.h */,
+				3EB1E38E20A0278100455486 /* YYWeakProxy.m */,
+				3EB1E38A20A0072700455486 /* SCCountdownLabel.h */,
+				3EB1E38B20A0072700455486 /* SCCountdownLabel.m */,
 				3EB1E37720A0030C00455486 /* Main.storyboard */,
 				3EB1E37A20A0030D00455486 /* Assets.xcassets */,
 				3EB1E37C20A0030D00455486 /* LaunchScreen.storyboard */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB1E38C20A0072700455486 /* SCCountdownLabel.m in Sources */,
 				3EB1E37620A0030C00455486 /* ViewController.m in Sources */,
 				3EB1E38120A0030D00455486 /* main.m in Sources */,
 				3EB1E37320A0030C00455486 /* AppDelegate.m in Sources */,
+				3EB1E38F20A0278100455486 /* YYWeakProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6Q4Y8S5HU;
 				INFOPLIST_FILE = TestCountDown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6Q4Y8S5HU;
 				INFOPLIST_FILE = TestCountDown/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

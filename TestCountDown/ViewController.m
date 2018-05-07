@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "SCCountdownLabel.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet SCCountdownLabel *label;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UITextField *textField1;
 
 @end
 
@@ -16,14 +20,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)action:(UIButton *)sender {
+    NSInteger interval = self.textField1.text.integerValue;
+    if (interval == 0) {
+        self.textField1.text = @"参数无效";
+        return;
+    }
+    
+    [self.label setupTotalInterval:interval dateformatter:self.textField.text];
 }
-
-
 @end
