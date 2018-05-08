@@ -7,14 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-typedef NS_ENUM(NSInteger, SCCountdownLabelStatus) {
-    SCCountdownLabelStatusNormal,
-    SCCountdownLabelStatusCounting,
-    SCCountdownLabelStatusFinished
-};
-
-static const NSString *kCountDownLabelFinishCountingNotification = @"kCountDownLabelFinishCountingNotification";
+#import "SCHeader.h"
 
 @interface SCCountdownLabel : UILabel
 @property (nonatomic, assign) SCCountdownLabelStatus    status;

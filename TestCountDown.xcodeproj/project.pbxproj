@@ -15,6 +15,7 @@
 		3EB1E38120A0030D00455486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1E38020A0030D00455486 /* main.m */; };
 		3EB1E38C20A0072700455486 /* SCCountdownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1E38B20A0072700455486 /* SCCountdownLabel.m */; };
 		3EB1E38F20A0278100455486 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1E38E20A0278100455486 /* YYWeakProxy.m */; };
+		3EB1E3A020A0455700455486 /* SCCountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1E39F20A0455700455486 /* SCCountdownButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,9 @@
 		3EB1E38B20A0072700455486 /* SCCountdownLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCountdownLabel.m; sourceTree = "<group>"; };
 		3EB1E38D20A0276000455486 /* YYWeakProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		3EB1E38E20A0278100455486 /* YYWeakProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		3EB1E39D20A0427200455486 /* SCHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHeader.h; sourceTree = "<group>"; };
+		3EB1E39E20A0455700455486 /* SCCountdownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCountdownButton.h; sourceTree = "<group>"; };
+		3EB1E39F20A0455700455486 /* SCCountdownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCountdownButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +74,11 @@
 				3EB1E37520A0030C00455486 /* ViewController.m */,
 				3EB1E38D20A0276000455486 /* YYWeakProxy.h */,
 				3EB1E38E20A0278100455486 /* YYWeakProxy.m */,
+				3EB1E39D20A0427200455486 /* SCHeader.h */,
 				3EB1E38A20A0072700455486 /* SCCountdownLabel.h */,
 				3EB1E38B20A0072700455486 /* SCCountdownLabel.m */,
+				3EB1E39E20A0455700455486 /* SCCountdownButton.h */,
+				3EB1E39F20A0455700455486 /* SCCountdownButton.m */,
 				3EB1E37720A0030C00455486 /* Main.storyboard */,
 				3EB1E37A20A0030D00455486 /* Assets.xcassets */,
 				3EB1E37C20A0030D00455486 /* LaunchScreen.storyboard */,
@@ -154,6 +161,7 @@
 				3EB1E38C20A0072700455486 /* SCCountdownLabel.m in Sources */,
 				3EB1E37620A0030C00455486 /* ViewController.m in Sources */,
 				3EB1E38120A0030D00455486 /* main.m in Sources */,
+				3EB1E3A020A0455700455486 /* SCCountdownButton.m in Sources */,
 				3EB1E37320A0030C00455486 /* AppDelegate.m in Sources */,
 				3EB1E38F20A0278100455486 /* YYWeakProxy.m in Sources */,
 			);
